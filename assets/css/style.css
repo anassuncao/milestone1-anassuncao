@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+
+header {
+    background-color: #009999;
+    color: #fafafa;
+    height: 250px;
+    min-height: 250px;
+    margin: 0;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+}
+
+.col-md-8 {
+    padding-top: 60px;
+}
+
+h4, p {
+    padding-top: 20px;
+}
+
+p {
+    
+}
+
+.container-picture {
+    background: url("../images/profile.jpg") no-repeat center center;
+    height: 240px;
+    width: 240px;
+    bottom: 5px;
+    right: 600px;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    border-color: #fafafa;
+}
