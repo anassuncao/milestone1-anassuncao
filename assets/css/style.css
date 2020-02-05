@@ -1,27 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 
+/*------------------------------------Header-----------------------------*/
+
 header {
     background-color: #009999;
     color: #fafafa;
-    height: 250px;
     min-height: 250px;
     margin: 0;
     text-align: center;
     font-family: "Noto Sans", sans-serif;
     position: relative;
-}
-
-.col-md-8 {
-    padding-top: 60px;
-}
-
-h4, p {
-    padding-top: 20px;
-}
-
-p {
-    
 }
 
 .container-picture {
@@ -35,4 +24,19 @@ p {
     border-width: 1px;
     border-radius: 50%;
     border-color: #fafafa;
+}
+
+
+/*------------------------------------Footer-----------------------------*/
+
+footer {
+    background-color: #009999;
+    color: #fafafa;
+    min-height: 60px;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.footer-details {
+    padding: 20px;
 }
