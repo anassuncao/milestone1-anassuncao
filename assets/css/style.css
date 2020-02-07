@@ -46,12 +46,73 @@ header {
     border-color: #fafafa;
 }*/
 
+/*------------------------------------Menu Bar-----------------------------*/
+
+#nav {
+    margin 0;
+}
+
+#nav li {
+    font-family: "Titillium Web", sans-serif;
+    color: #f4f4f4;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.navitem {
+    height: 70px;
+    text-align: center;
+    padding: 0;
+    background-color: #669999;
+    margin: 0;
+}
+
+.navitem a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.about-button {
+    color: #f4f4f4;
+    padding: 0;
+    width: 100%;
+}
+
+.resume-button {
+    color: #f4f4f4;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.skills-button {
+    color: #f4f4f4;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+*/
+
 
 /*------------------------------------Footer-----------------------------*/
 
 footer {
     background-color: #009999;
-    color: #fafafa;
+    color: #f4f4f4;
     min-height: 60px;
     margin: 0;
     font-family: "Titillium Web", sans-serif;
