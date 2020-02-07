@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap');
 
 /*------------------------------------Header-----------------------------*/
 
@@ -9,11 +8,32 @@ header {
     min-height: 250px;
     margin: 0;
     text-align: center;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     position: relative;
 }
 
-.container-picture {
+.header-details {
+    padding: 30px;
+}
+
+.header-details h1 {
+    font-weight: 400;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.header-details h3 {
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.header-details h4 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+/*.container-picture {
     background: url("../images/profile.jpg") no-repeat center center;
     height: 240px;
     width: 240px;
@@ -24,7 +44,7 @@ header {
     border-width: 1px;
     border-radius: 50%;
     border-color: #fafafa;
-}
+}*/
 
 
 /*------------------------------------Footer-----------------------------*/
@@ -34,9 +54,21 @@ footer {
     color: #fafafa;
     min-height: 60px;
     margin: 0;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .footer-details {
     padding: 20px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%; /* Quando se tem um elemento com a mesma width e height e se adiciona um border-radius de 50% ficamos com um circulo */
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #00b3b3;
 }
