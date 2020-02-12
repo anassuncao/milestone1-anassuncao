@@ -121,6 +121,55 @@ header {
 */
 
 
+/*------------------------------------Resume-----------------------------*/
+
+.history-heading {
+    /*color: #fafafa;*/
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 2em 1em 0em 1em;
+    position: relative;
+    /*color: #fafafa;*/
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates); /* Só se pode usar o atributo CONTENT com os "before" ou "after" pseudo-elements - define o conteúdo que vai aparecer antes ou depois da class em questão */
+    position: absolute;
+    left: 2.5em;
+    top: 0.5em;
+    display: block;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 0.7em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: black;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+
 /*------------------------------------Footer-----------------------------*/
 
 footer {
@@ -133,6 +182,7 @@ footer {
 
 .footer-details {
     padding: 20px;
+    text-align: center;
 }
 
 .social-links li a i {
