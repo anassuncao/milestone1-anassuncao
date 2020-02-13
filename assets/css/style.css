@@ -5,20 +5,39 @@
 header {
     background-color: #405F73;
     color: #F2F2F2;
-    min-height: 250px;
+    min-height: 400px;
     margin: 0;
     text-align: center;
     font-family: "Noto Sans JP", sans-serif;
     position: relative;
+    padding-top: 20px
+}
+
+.circle-photo-container {
+  width: 250px;
+  height: 250px;
+  padding: 0px;
+  border-style: solid;
+  border-color: #658DA6;
+  border-width: 1px;
+  border-radius: 50%;
+  /* Para centrar o círculo dentro do seu parent container utiliza-se o "truque" de definir a margem para 0 e auto: */
+  margin: 0 auto;
+}
+
+.circle-photo-bg {
+  background: url("../images/profile.jpg") no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .header-details {
-    padding: 30px;
+    padding: 20px;
 }
 
 .header-details h1 {
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 8px;
     /*text-transform: uppercase;*/
 }
 
