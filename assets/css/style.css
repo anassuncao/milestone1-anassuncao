@@ -3,7 +3,8 @@
 /*------------------------------------Header-----------------------------*/
 
 header {
-    background-color: #405F73;
+    background-image: linear-gradient(#405f73,#8BBBD9);
+    /*background-color: #405F73;*/
     color: #F2F2F2;
     min-height: 400px;
     margin: 0;
