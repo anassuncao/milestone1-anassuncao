@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap');
 
 body {
     font-family: "Noto Sans JP", sans-serif;
@@ -13,9 +15,8 @@ header {
     min-height: 400px;
     margin: 0;
     text-align: center;
-    font-family: "Noto Sans JP", sans-serif;
     position: relative;
-    padding-top: 20px
+    padding-top: 20px;
 }
 
 .circle-photo-container {
@@ -44,7 +45,6 @@ header {
 .header-details h1 {
     font-weight: 400;
     margin-top: 8px;
-    /*text-transform: uppercase;*/
 }
 
 .header-details h3 {
@@ -76,7 +76,6 @@ header {
 
 .nav-item a {
     font-family: "Noto Sans JP", sans-serif;
-
 }
 
 .nav-link i {
@@ -191,13 +190,15 @@ footer {
 }
 
 footer h5 {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 300;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
 }
 
 footer h5 a i {
     color: #8BBBD9;
     margin-left: 5px;
+    display: inline;
 }
 
 footer h5 a i:hover {
