@@ -8,7 +8,9 @@ body {
 /*------------------------------------Header-----------------------------*/
 
 header {
-    background-image: linear-gradient(#405f73,#8BBBD9);
+    background-image: url("../images/servers1.jpg");
+    background-size: cover;
+    /*background-image: linear-gradient(#405f73,#8BBBD9);*/
     color: #F2F2F2;
     min-height: 400px;
     margin: 0px;
@@ -41,8 +43,17 @@ header {
   border-radius: 50%;
 }
 
+.details-container {
+    padding-top: 70px;
+}
+
 .header-details {
     padding: 20px;
+    /*background-color: rgba(64,95,115,0.85);*/
+    background-color: rgba(80,80,80,0.85);
+    display: inline-block;
+    border-width: 3px;
+    /*box-shadow: 5px 5px 5px 5px #505050;*/
 }
 
 .header-details h1 {
