@@ -77,7 +77,6 @@ header {
     color: #021526!important;
 }
 
-
 .nav-item a {
     font-family: "Noto Sans JP", sans-serif;
 }
@@ -92,11 +91,6 @@ header {
     color: #021526;
 }
 
-/*
-.nav-item i:hover {
-    color: #021526;
-}*/
-
 
 /*------------------------------------About Me-----------------------------*/
 
@@ -109,6 +103,13 @@ header {
 
 .about-me p {
     margin-top: 20px;
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+.text-container {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
