@@ -185,22 +185,24 @@ footer {
 }
 
 #footer-details {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-left: 15px;
     padding-bottom: 15px;
 }
 
 footer h5 {
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: 300;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
 }
 
-footer h5 a i {
+footer h5 i {
     color: #8BBBD9;
+    margin-right: 5px;
     margin-left: 5px;
+    display: inline;
 }
 
-footer h5 a i:hover {
+footer h5 i:hover {
     color: #021526;
 }
 
