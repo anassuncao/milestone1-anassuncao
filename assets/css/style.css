@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
 
 body {
     font-family: "Noto Sans JP", sans-serif;
@@ -8,7 +9,6 @@ body {
 
 header {
     background-image: linear-gradient(#405f73,#8BBBD9);
-    /*background-color: #405F73;*/
     color: #F2F2F2;
     min-height: 400px;
     margin: 0;
@@ -23,7 +23,7 @@ header {
   height: 250px;
   padding: 0px;
   border-style: solid;
-  border-color: #658DA6;
+  border-color: #021526;
   border-width: 1px;
   border-radius: 50%;
   /* Para centrar o círculo dentro do seu parent container utiliza-se o "truque" de definir a margem para 0 e auto: */
@@ -32,7 +32,8 @@ header {
 }
 
 .circle-photo-bg {
-  background: url("../images/profile.jpg") no-repeat center center;
+  background: url("../images/profile-pic.jpg") no-repeat center center;
+  background-size: cover;
   height: 100%;
   border-radius: 50%;
 }
