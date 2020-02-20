@@ -173,8 +173,18 @@ header {
 
 /*------------------------------------Skills-----------------------------*/
 
+.content-container .col-12 {
+    padding-right: 20px;
+}
+
 .content-container .row {
     margin: 0px;
+}
+
+
+.progress-container h3 {
+    margin-bottom: 30px;
+    margin-top: 10px;
 }
 
 .progress-container {
@@ -183,8 +193,16 @@ header {
 }
 
 .progress {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.progress-type {
+    text-align: right;
+}
+
+.progress-bar {
+    padding-right: 5px;
 }
 
 
