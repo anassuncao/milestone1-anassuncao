@@ -10,7 +10,6 @@ body {
 header {
     background-image: url("../images/servers.jpg");
     background-size: cover;
-    /*background-image: linear-gradient(#405f73,#8BBBD9);*/
     color: #F2F2F2;
     min-height: 400px;
     margin: 0px;
@@ -25,11 +24,9 @@ header {
 
 .header-details {
     padding: 20px;
-    /*background-color: rgba(64,95,115,0.85);*/
     background-color: rgba(80,80,80,0.85);
     display: inline-block;
     border-width: 3px;
-    /*box-shadow: 5px 5px 5px 5px #505050;*/
 }
 
 .header-details h1 {
@@ -46,7 +43,6 @@ header {
 /*------------------------------------Nav Bar-----------------------------*/
 
 .bg-light {
-    /*background-color: #8BBBD9!important;*/
     background-color: #405F73!important;
 }
 
@@ -55,7 +51,7 @@ header {
 }
 
 .navbar-light a:hover {
-    color: #021526!important;
+    color: 	#282828!important;
 }
 /*I used the !important because the default styling of the navbar-light used it also and it was the only way I could think of to make this work.*/
 
@@ -67,7 +63,7 @@ header {
 }
 
 .active i {
-    color: #021526;
+    color: 	#282828;
 }
 
 
@@ -90,7 +86,7 @@ header {
   border-width: 1px;
   border-radius: 50%;
   margin: 0 auto;
-  box-shadow: 5px 5px 5px 5px #405f73;
+  box-shadow: 4px 4px 4px 4px #405f73;
   margin-top: 20px;
 }
 
@@ -184,12 +180,14 @@ header {
 
 .progress-container h3 {
     margin-bottom: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .progress-container {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .progress {
@@ -234,7 +232,7 @@ footer h5 i {
 }
 
 footer h5 i:hover {
-    color: #021526;
+    color: #282828;
 }
 
 .in-logo {
