@@ -8,7 +8,7 @@ body {
 /*------------------------------------Header-----------------------------*/
 
 header {
-    background-image: url("../images/servers1.jpg");
+    background-image: url("../images/servers.jpg");
     background-size: cover;
     /*background-image: linear-gradient(#405f73,#8BBBD9);*/
     color: #F2F2F2;
@@ -17,30 +17,6 @@ header {
     text-align: center;
     position: relative;
     padding-top: 20px;
-}
-
-.profile-pic {
-    background-position: 100px 0px;
-}
-
-.circle-photo-container {
-  width: 250px;
-  height: 250px;
-  padding: 0px;
-  border-style: solid;
-  border-color: #021526;
-  border-width: 1px;
-  border-radius: 50%;
-  /* Para centrar o círculo dentro do seu parent container utiliza-se o "truque" de definir a margem para 0 e auto: */
-  margin: 0 auto;
-  box-shadow: 5px 5px 5px 5px #405f73;
-}
-
-.circle-photo-bg {
-  background: url("../images/profile-pic.jpg") no-repeat center center;
-  background-size: cover;
-  height: 100%;
-  border-radius: 50%;
 }
 
 .details-container {
@@ -66,11 +42,6 @@ header {
     margin-top: 15px;
 }
 
-.header-details h4 {
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin-top: 15px;
-}
 
 /*------------------------------------Nav Bar-----------------------------*/
 
@@ -79,7 +50,6 @@ header {
     background-color: #405F73!important;
 }
 
-/*I used the !important because the default styling of the navbar-light used it also and it was the only way I could think of to make this work.*/
 .navbar-light a {
     color: #F2F2F2!important;
 }
@@ -87,10 +57,8 @@ header {
 .navbar-light a:hover {
     color: #021526!important;
 }
+/*I used the !important because the default styling of the navbar-light used it also and it was the only way I could think of to make this work.*/
 
-.nav-item a {
-    font-family: "Noto Sans JP", sans-serif;
-}
 
 .nav-link i {
     margin-right: 8px;
@@ -110,6 +78,31 @@ header {
     font-family: "Noto Sans JP", sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.circle-photo-container {
+  width: 250px;
+  height: 250px;
+  padding: 0px;
+  border-style: solid;
+  border-color: #021526;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px 5px #405f73;
+  margin-top: 20px;
+}
+
+.circle-photo-bg {
+  background: url("../images/profile-pic.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.about-me h3 {
+    margin-top: 20px;
 }
 
 .about-me p {
@@ -119,8 +112,8 @@ header {
 }
 
 .text-container {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 
