@@ -164,7 +164,22 @@ header {
 }
 
 .history-items {
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:991px) {
+    .resume-content .col-lg-4, .history-items {
+        margin-top:0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .history-items.last-column {
+        margin-bottom: 30px;
+    }
 }
 
 /*------------------------------------Skills-----------------------------*/
@@ -203,6 +218,26 @@ header {
     padding-right: 5px;
 }
 
+.bg-darkblue {
+    background-color: #021526;
+}
+
+.bg-mediumblue {
+    background-color: #405F73;
+}
+
+.bg-mediumbluelight {
+    background-color: #658DA6;
+}
+
+.bg-lightblue {
+    background-color: #8BBBD9;
+}
+
+.bg-lighter {
+    background-color: #bfbfbf;
+}
+
 
 /*------------------------------------Footer-----------------------------*/
 
@@ -222,6 +257,7 @@ footer {
 footer h5 {
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 1px;
+    color: #F2F2F2;
 }
 
 footer h5 i {
@@ -237,4 +273,8 @@ footer h5 i:hover {
 
 .in-logo {
     color: #8BBBD9;
+}
+
+footer a:hover {
+    text-decoration: none;
 }
