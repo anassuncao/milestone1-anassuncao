@@ -7,6 +7,7 @@ I wanted to do something with a clean, modern and simple look, not too much out 
 by Andre when he explain to me what he needed in an online CV. He says this is the description of this particular IT area (and from what I could gather from my research, I agree) so I wanted to
 match it.
 
+
 UX
 
 I believe the website is intuitive and easy to navigate. Has the necessary information for a first assesment but doesn't have too much information where the visitor/recruiter/user could lose him/herself but the option to dowload the complete and more
@@ -15,68 +16,62 @@ more information needed. Also includes a link for the LinkedIn page with more in
 
 Even tought I decided to make some changes of layout during the project, the initial mockups and ideas can be found here: https://www.dropbox.com/sh/c2c7pkk6iinvkna/AABOXc-ZhWJF2rYOQzEXGT-Ca?dl=0
 
-I made some research online to get inspired, this one in particular:
+
+FEATURES
+
+The About Me page is the landing page where the user can get to know the professional imediatly. It has his picture, a small text about his experiencie (kinds of companies where he worked and kind of
+tasks/functions that he has done) and his language skills.
+The header and the footer are present through all the pages of the website and allow the user to always have access to the professional contacts (phone and email) and to his profession. The footer
+also provides the link to the LinkedIn page and the possibility to download a resume in Europass format.
+
+The resume page provides a timeline of the work experience with dates, roles and companies information. For more detailed info the user can also access to the LinkedIn page or download the CV.
+
+The skills page has information about the most relevant technical skills and soft/behavioural skills. Again, for more detailed information (especialy about the technologies knowledge), the user
+can download the CV or explore the LinkedIn page, or even contact directly with the professional.
+
+
+TECHNOLOGIES USED
+
+I used Bootstrap documentation for the grid, responsiveness, navbar, progress bar, between others:
+https://getbootstrap.com/docs/4.4/getting-started/introduction/
+
+The icons used through out the webiste come from Font Awesome:
+https://fontawesome.com/icons?d=gallery
+
+I've used the Google Fonts Noto Sans JP and PT Sans: 
+https://fonts.google.com/
+
+
+
+TESTING
+
+I used the following for validating the html and css code.
+
+CSS validation in https://jigsaw.w3.org/css-validator/validator came out with no errors.
+
+HTML validation in https://validator.w3.org/nu/#textarea came out with one div that wasn't properly closed. Resume page came out with no errors and skills page had one extra closing div. 
+After fixing it, everything became correct.
+
+Also used the devtools of Chrome to test the responsiveness in all the available models of cellphones and tablets.
+
+
+
+CREDITS
+
+Bootstrap
+Font Awesome
+Google Fonts
+The links for the above are already provided in the TECHNOLOGIES USED section
+
+The image on the header is a photo by Kvistholt Photography on Unsplash:
+https://unsplash.com/s/photos/servers
+
+I made some research online to get inspired, this one website in particular:
 https://business.tutsplus.com/articles/10-creative-resume-ideas-to-stand-out-online-in-2019--cms-25761
 
 I used the following website for picking the colours: 
 https://color.adobe.com/pt/create
 
 
-
-TO BE CONTINUED
-
-
 ----///-----
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
