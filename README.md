@@ -8,6 +8,7 @@ by Andre when he explain to me what he needed in an online CV. He says this is t
 match it.
 
 
+
 **UX**
 
 I believe the website is intuitive and easy to navigate. Has the necessary information for a first assesment but doesn't have too much information where the visitor/recruiter/user could lose him/herself but the option to dowload the complete and more
@@ -15,6 +16,7 @@ traditional version of the CV provides more info if necessary. Also, the contact
 more information needed. Also includes a link for the LinkedIn page with more info.
 
 Even tought I decided to make some changes of layout during the project, the initial mockups and ideas can be found here: https://www.dropbox.com/sh/c2c7pkk6iinvkna/AABOXc-ZhWJF2rYOQzEXGT-Ca?dl=0
+
 
 
 **FEATURES**
@@ -28,6 +30,7 @@ The resume page provides a timeline of the work experience with dates, roles and
 
 The skills page has information about the most relevant technical skills and soft/behavioural skills. Again, for more detailed information (especialy about the technologies knowledge), the user
 can download the CV or explore the LinkedIn page, or even contact directly with the professional.
+
 
 
 **TECHNOLOGIES USED**
@@ -55,6 +58,7 @@ After fixing it, everything became correct.
 Also used the devtools of Chrome to test the responsiveness in all the available models of cellphones and tablets.
 
 
+
 **DEPLOYMENT**
 
 I've published my webiste using GitHub pages. I followed these steps:
@@ -62,7 +66,7 @@ I've published my webiste using GitHub pages. I followed these steps:
 2. Under the GitHub Pages, in the *Source* drop-down menu I've selected "master branch"
 3. The publishing link https://anassuncao.github.io/milestone1-anassuncao/index.html was generated imediatly.
 
-For clining my repository, the following steps must me taken:
+For cloning my repository, the following steps must me taken:
 1. On GitHub navigate to the main page of the repository: https://github.com/anassuncao/milestone1-anassuncao
 2. Under the repository name click *Clone or download*
 3. To clone the repository using HTTPS, under *Clone with HTTPS*, click the "notepad with an arrow" icon. To clone the repository using an SSH key, 
@@ -71,6 +75,7 @@ including a certificate issued by your organization's SSH certificate authority,
 5. Change the current working directory to the location where you want the cloned directory to be made
 6. Type *git clone* and paste the URL you've copied in step 2.
 7. Press *Enter* to create your local clone.
+
 
 
 
