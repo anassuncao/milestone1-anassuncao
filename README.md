@@ -1,4 +1,4 @@
-Andre Saramago CV
+**ANDRE SARAMAGO CV**
 
 This project is an online CV for someone who works IT but in an area that doesn't work with the kind of projects that could be possible to put in a portfolio. Either way, we've 
 (me and Andre - the guy on the resume) thought that this could be a good way to stand out from other professionals in the same IT area and help him with his current goal of changing jobs.
@@ -8,7 +8,7 @@ by Andre when he explain to me what he needed in an online CV. He says this is t
 match it.
 
 
-UX
+**UX**
 
 I believe the website is intuitive and easy to navigate. Has the necessary information for a first assesment but doesn't have too much information where the visitor/recruiter/user could lose him/herself but the option to dowload the complete and more
 traditional version of the CV provides more info if necessary. Also, the contacts always visible on the footer gives the visitor/recruiter/user and easy way to contact Andre and obtain whatever
@@ -17,7 +17,7 @@ more information needed. Also includes a link for the LinkedIn page with more in
 Even tought I decided to make some changes of layout during the project, the initial mockups and ideas can be found here: https://www.dropbox.com/sh/c2c7pkk6iinvkna/AABOXc-ZhWJF2rYOQzEXGT-Ca?dl=0
 
 
-FEATURES
+**FEATURES**
 
 The About Me page is the landing page where the user can get to know the professional imediatly. It has his picture, a small text about his experiencie (kinds of companies where he worked and kind of
 tasks/functions that he has done) and his language skills.
@@ -30,7 +30,7 @@ The skills page has information about the most relevant technical skills and sof
 can download the CV or explore the LinkedIn page, or even contact directly with the professional.
 
 
-TECHNOLOGIES USED
+**TECHNOLOGIES USED**
 
 I used Bootstrap documentation for the grid, responsiveness, navbar, progress bar, between others:
 https://getbootstrap.com/docs/4.4/getting-started/introduction/
@@ -43,7 +43,7 @@ https://fonts.google.com/
 
 
 
-TESTING
+**TESTING**
 
 I used the following for validating the html and css code.
 
@@ -55,23 +55,37 @@ After fixing it, everything became correct.
 Also used the devtools of Chrome to test the responsiveness in all the available models of cellphones and tablets.
 
 
+**DEPLOYMENT**
 
-CREDITS
+I've published my webiste using GitHub pages. I followed these steps:
+1. Inside my repository I clicked *settings*;
+2. Under the GitHub Pages, in the *Source* drop-down menu I've selected "master branch"
+3. The publishing link https://anassuncao.github.io/milestone1-anassuncao/index.html was generated imediatly.
 
-Bootstrap
-Font Awesome
-Google Fonts
+For clining my repository, the following steps must me taken:
+1. On GitHub navigate to the main page of the repository: https://github.com/anassuncao/milestone1-anassuncao
+2. Under the repository name click *Clone or download*
+3. To clone the repository using HTTPS, under *Clone with HTTPS*, click the "notepad with an arrow" icon. To clone the repository using an SSH key, 
+including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click "notepad with an arrow" icon.
+4. Open Terminal
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type *git clone* and paste the URL you've copied in step 2.
+7. Press *Enter* to create your local clone.
+
+
+
+**CREDITS**
+
+* Bootstrap
+* Font Awesome
+* Google Fonts
 The links for the above are already provided in the TECHNOLOGIES USED section
 
-The image on the header is a photo by Kvistholt Photography on Unsplash:
+* The image on the header is a photo by Kvistholt Photography on Unsplash:
 https://unsplash.com/s/photos/servers
 
-I made some research online to get inspired, this one website in particular:
+* I made some research online to get inspired, this one website in particular:
 https://business.tutsplus.com/articles/10-creative-resume-ideas-to-stand-out-online-in-2019--cms-25761
 
-I used the following website for picking the colours: 
+* I used the following website for picking the colours: 
 https://color.adobe.com/pt/create
-
-
-----///-----
-
