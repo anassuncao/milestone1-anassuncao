@@ -127,6 +127,7 @@ header {
     margin-bottom: 30px;
 }
 
+/*The folowing code untill the line 165 was taken from the Code Institute ucd-resume and then modified to match the styling of the current project.*/
 .timeline-item {
     padding: 2em 1em 0em 1em;
     position: relative;
@@ -177,10 +178,6 @@ information*/
         padding-top: 0;
         padding-bottom: 0;
     }
-}
-
-/*The following media query prevents the "vertical timeline" to be "glued" to the footer, creating a space between the end of the work history and the begining of the footer.*/
-@media only screen and (max-width:991px) {
     .history-items.last-column {
         margin-bottom: 30px;
     }
